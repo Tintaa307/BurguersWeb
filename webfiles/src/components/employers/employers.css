@@ -1,0 +1,41 @@
+.section.section-employers {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 14rem;
+}
+
+.container-info-employers div.employer {
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+    left: 19.5%;
+    transform: translateX(-19.5%);
+}
+
+.container-info-employers div.employer img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.container-info-employers div.employer .container-stars {
+    color: var(--color-main);
+    font-size: 13px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-info-employers div.employer .container-stars i {
+    padding: 0 3px;
+    position: relative;
+    left: 15%;
+    transform: translateX(-15%);
+}
+
+.container-info-employers div.employer h5 {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+}

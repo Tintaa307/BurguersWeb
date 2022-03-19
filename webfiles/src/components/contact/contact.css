@@ -1,0 +1,99 @@
+.section.section-contact {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.container-info-contact iframe.map {
+    width: 45%;
+    height: 470px;
+}
+
+.container-info-contact .container-icons-contact {
+    width: 45%;
+    position: absolute;
+    left: 665px;
+    top: 4170px;
+}
+
+.container-info-contact .container-icons-contact div {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.container-info-contact .container-icons-contact div.contacts i {
+    background-color: var(--color-main);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.container-info-contact .container-icons-contact div.contacts h3 {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-info-contact .container-icons-contact div.contacts h6 {
+    color: var(--grey);
+    font-size: 9px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.container-form {
+    position: absolute;
+    left: 580px;
+    top: 4330px;
+}
+
+.container-form h2 {
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    left: 240px;
+    margin-bottom: 1.5rem;
+}
+
+.container-form .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container-form .contact-form input {
+    width: 620px;
+    outline: none;
+    border: 2px solid var(--grey);
+    background-color: transparent;
+    margin: 5px;
+    height: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+.container-form .contact-form input.message {
+    height: 80px;
+    padding-bottom: 50px;
+}
+
+.container-form .contact-form input.btn {
+    width: 24%;
+    position: relative;
+    left: 44%;
+    transform: translateX(-24%);
+    transition: 0.4s ease-in-out;
+}
+
+.container-form .contact-form input.btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease-in-out;
+}

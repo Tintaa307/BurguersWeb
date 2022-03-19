@@ -1,0 +1,89 @@
+.section.section-about {
+    margin-top: 12rem;
+}
+
+.container.container-about .container-img-title img{
+    display: block;
+    margin: auto;
+    width: 130px;
+}
+
+.container.container-about .container-img-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.container-about-info .container-img-info {
+    width: 45%;
+}
+
+.container-about-info .container-img-info img {
+    width: 80%;
+    position: relative;
+    left: 30%;
+    transition: 0.3s ease-in-out;
+}
+
+.container-about-info .container-img-info img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.container-text-info {
+    width: 45%;
+    position: absolute;
+    top: 2350px;
+    left: 50%;
+}
+
+.container-text-info h2 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+.container-text-info p {
+    color: var(--grey);
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 2rem;
+}
+
+.container-text-info .container-expecifics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-expecifics div.expecifics i {
+    color: var(--color-main);
+    font-size: 15px;
+}
+
+.container-expecifics div.expecifics h5 {
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    top: -16px;
+    left: 23px;
+}
+
+.container-text-info button {
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: 2px solid var(--grey);
+    transition: 0.4s ease-in-out;
+}
+
+.container-text-info button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease-in-out;
+}

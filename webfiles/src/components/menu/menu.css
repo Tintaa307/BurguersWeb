@@ -1,0 +1,135 @@
+.section.section-menu {
+    margin-top: 8rem;
+    position: relative;
+    width: 100%;
+}
+
+.container.container-menu {
+    margin-bottom: 8rem;
+}
+
+.container-menu-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-menu-services div.box {
+    display: block;
+    margin: auto;
+    margin: 10px;
+}
+
+.container-menu-services div.box i {
+    background-color: var(--color-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.container-menu-services div.box h3 {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.container-menu-services div.box p {
+    color: var(--grey);
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container-menu-info {
+    margin-top: 10rem;
+}
+
+.container-menu-info .container-img-title img {
+    display: block;
+    margin: auto;
+    width: 130px;
+}
+
+.container-menu-info .container-img-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+.container-menu-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-menu-products div.menu {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container-menu-products div.menu img {
+    width: 270px;
+    height: 270px;
+    transition: 0.3s ease-in-out;
+}
+
+.container-menu-products div.menu img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.container-menu-products div.menu .container-stars {
+    text-align: center;
+    justify-content: center;
+}
+
+.container-menu-products div.menu .container-stars i {
+    color: var(--color-main);
+    padding: 1px;
+    font-size: 12px;
+    padding-bottom: 2rem;
+}
+
+.container-menu-products div.menu h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.container-menu-products div.menu h5 {
+    color: var(--grey);
+    text-align: center;
+    font-size: 17px;
+}
+
+.container-menu-products div.menu button {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: 2px solid var(--grey);
+    transition: 0.4s ease-in-out;
+}
+
+.container-menu-products div.menu button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
